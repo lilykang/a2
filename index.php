@@ -35,7 +35,7 @@
 
 				<!-- Indicate whether journaled using radio button-->
 				<fieldset class='radios'>
-            <label for='journal'>*Did you journal today?</label>
+            <label>*Did you journal today?</label>
             <h5><input type='radio' name='journal' required value='Yes' <?php if($journal == 'Yes') echo 'CHECKED'?>> Yes (+20 pts.)</h5>
             <h5><input type='radio' name='journal' value='No' <?php if($journal == 'No') echo 'CHECKED'?>> No</h5>
         </fieldset>
