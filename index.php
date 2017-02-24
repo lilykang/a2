@@ -25,7 +25,7 @@
 	      <input type='hidden' name='alwaysPost' value='0'>
 
 				<!-- Enter today's date -->
-				<label for='todayDate'>*Select today's date:</label>
+				<label for='todayDate'>*Please enter today's date:</label>
 				<input type='date' name='todayDate' required id='todayDate' value='<?=$form->prefill('todayDate')?>'>
 
 				<!-- Indicate how long the workout is using text box -->
